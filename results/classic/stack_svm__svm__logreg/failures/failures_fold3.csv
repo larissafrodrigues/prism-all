@@ -1,0 +1,4 @@
+fold,path,y_true,y_pred,prob1
+3,/home/ubuntu/all-idb/dataset/leukemia/Im027_1.tif,1,0,0.04671738
+3,/home/ubuntu/all-idb/dataset/healthy/Im212_0.tif,0,1,0.54870110
+3,/home/ubuntu/all-idb/dataset/healthy/Im235_0.tif,0,1,0.51965333

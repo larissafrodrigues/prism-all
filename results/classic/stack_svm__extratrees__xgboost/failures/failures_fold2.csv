@@ -1,0 +1,2 @@
+fold,path,y_true,y_pred,prob1
+2,/home/ubuntu/all-idb/dataset/healthy/Im185_0.tif,0,1,0.98105313

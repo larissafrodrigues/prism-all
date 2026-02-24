@@ -1,0 +1,33 @@
+{
+    "timestamp": "2026-02-24T02:58:14",
+    "n_images": 260,
+    "models": [
+        "svm",
+        "knn"
+    ],
+    "mode": "stacking",
+    "meta": "svm",
+    "tune": true,
+    "calibrate": true,
+    "calib_method": "sigmoid",
+    "cv": 5,
+    "rings": {
+        "ring1": 10,
+        "ring2": 24
+    },
+    "glcm": true,
+    "results": {
+        "mean_acc": 0.9653846153846155,
+        "std_acc": 0.030769230769230757,
+        "mean_bacc": 0.9653846153846155,
+        "std_bacc": 0.030769230769230757,
+        "mean_mcc": 0.9334878702215306,
+        "std_mcc": 0.05862060205465069,
+        "mean_sens": 0.9615384615014794,
+        "std_sens": 0.0595843591701301,
+        "mean_spec": 0.969230769193491,
+        "std_spec": 0.037684457579830265,
+        "mean_auc": 0.9692307692307693,
+        "mean_prauc": 0.9582291437344903
+    }
+}
