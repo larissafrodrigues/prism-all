@@ -18,7 +18,6 @@
 
 If you use PRISM in your research, please cite the following paper:
 
-### BibTeX
 ```bibtex
 @inproceedings{RodriguesMoreira2026,
   title={{PRISM: Perinuclear Ring-based Image Segmentation Method for Acute Lymphoblastic Leukemia Classification}},
