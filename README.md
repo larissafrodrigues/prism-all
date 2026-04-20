@@ -3,7 +3,7 @@
 [![Conference](https://img.shields.io/badge/Accepted-SBCAS_2026-success.svg)](https://www.sbcas2026.com/)
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-3.10-ee4c2c.svg)](https://pytorch.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 > **Rodrigues Moreira et al. (2026)**
 
