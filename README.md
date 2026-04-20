@@ -7,7 +7,7 @@
 
 > **Rodrigues Moreira et al. (2026)**
 
-### ⚙️ Methodology Pipeline
+### ⚙️ Pipeline
 
 1. **Preprocessing:** CIELAB color mapping, CLAHE enhancement, and nucleus segmentation.
 2. **PRISM Zonal Extraction:** Dynamic generation of proximal and distal concentric zones around the nucleus.
