@@ -3,9 +3,6 @@ import glob
 import cv2
 import matplotlib.pyplot as plt
 
-# ==========================================
-# 1. CONFIGURAÇÕES DA IMAGEM E ESTILO IEEE
-# ==========================================
 plt.rcParams.update({
     "font.family": "serif",
     "font.serif": ["Times New Roman", "Times", "DejaVu Serif"],
@@ -50,12 +47,10 @@ def create_dataset_grid():
         #    axes[0, i].text(-0.2, 0.5, 'ALL\n(Pathogenic)', fontsize=12, fontweight='bold', 
         #                    va='center', ha='right', transform=axes[0, i].transAxes)
 
-    # --- Linha 1: Saudáveis (Healthy) ---
     for i in range(8):
         img = cv2.imread(hem_images[i])
         img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         
-        # FORÇA o redimensionamento
         img = cv2.resize(img, IMG_SIZE)
         
         axes[1, i].imshow(img)
@@ -65,10 +60,8 @@ def create_dataset_grid():
         #    axes[1, i].text(-0.2, 0.5, 'Healthy\n(Normal)', fontsize=12, fontweight='bold', 
         #                    va='center', ha='right', transform=axes[1, i].transAxes)
 
-    # Ajustar espaçamento colado
     plt.subplots_adjust(wspace=0.05, hspace=0.05)
     
-    # Salvar nos formatos PDF (para o LaTeX) e PNG
     plt.savefig('fig_dataset_samples.pdf', format='pdf', bbox_inches='tight') 
     plt.savefig('fig_dataset_samples.png', format='png', bbox_inches='tight', dpi=300)
     
